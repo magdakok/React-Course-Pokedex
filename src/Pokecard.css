@@ -1,0 +1,12 @@
+.Pokecard {
+    border: 1px solid rgb(248, 193, 248);
+    border-radius: 10px;
+    background-color: rgb(248, 233, 248);
+    padding: 10px 10px 30px 10px;
+    width: 250px;
+    margin: 30px;
+}
+
+.Pokecard-title {
+    color: rgb(53, 55, 91);
+}
