@@ -3,6 +3,13 @@ import './Pokedex.css';
 import Pokecard from './Pokecard.js';
 
 class Pokedex extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            score : 0,
+            gameOver : false
+        }
+    }
     static defaultProps = {
         pokemon : [
             {id: 4, name: 'Charmander', type: 'fire', base_experience: 62},
